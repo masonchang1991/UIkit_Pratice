@@ -57,7 +57,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         self.searchController.searchBar.sizeToFit()
         
-        self.searchController.dimsBackgroundDuringPresentation = false
+        self.searchController.dimsBackgroundDuringPresentation = true
         
         self.searchController.searchBar.placeholder = " Hello world"
         
